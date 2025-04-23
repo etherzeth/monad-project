@@ -10,7 +10,7 @@ contract DeployTokenA is Script {
         uint256 privateKey = vm.envUint("PRIVATE_KEY");
 
         vm.startBroadcast(privateKey);
-        new Token("BOB DONGO", "BOBI", 1_000_000 ether);
+        new Token("JENATAN", "JEN4", 1_000_000 ether);
         vm.stopBroadcast();
     }
 }
